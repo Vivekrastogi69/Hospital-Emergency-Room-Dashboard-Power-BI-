@@ -1,72 +1,80 @@
 # 🏥 Hospital Emergency Room Dashboard
 
-An interactive **Power BI Dashboard** designed to analyze Hospital Emergency Room (ER) performance using real-world healthcare data. The dashboard provides valuable insights into patient flow, waiting time, admissions, referrals, demographics, and operational efficiency through interactive visualizations.
+<p align="center">
+  <img src="Monthly View.png" width="900">
+</p>
 
----
+## 📌 Project Overview
 
-# 📌 Project Overview
+The **Hospital Emergency Room Dashboard** is an interactive Business Intelligence solution developed using **Microsoft Power BI**. It provides comprehensive insights into emergency room operations, enabling healthcare professionals and hospital administrators to monitor patient flow, waiting times, admissions, referrals, demographics, and overall emergency department performance.
 
-The Hospital Emergency Room Dashboard enables healthcare professionals and administrators to monitor key performance indicators (KPIs) and make data-driven decisions.
-
-The dashboard includes multiple report pages that provide detailed and consolidated insights into patient visits, waiting times, admissions, department referrals, patient demographics, and emergency room performance.
+The dashboard is designed to transform raw healthcare data into meaningful insights through interactive visualizations, helping decision-makers improve operational efficiency and patient care.
 
 ---
 
 # 🎯 Objectives
 
-- Monitor Emergency Room patient volume
-- Analyze patient waiting time
-- Track admission and non-admission rates
-- Understand patient demographics
-- Analyze department referrals
-- Identify peak days and busiest hours
-- Improve operational efficiency using data insights
+- Analyze Emergency Room patient flow
+- Monitor patient waiting time
+- Evaluate admission and discharge rates
+- Track department referrals
+- Analyze patient demographics
+- Identify peak operational hours
+- Improve hospital resource allocation
+- Support data-driven healthcare decisions
 
 ---
 
 # 📊 Dashboard Pages
 
-## 1️⃣ Monthly View
+## 📅 1. Monthly View
 
-Provides monthly performance analysis.
+Provides detailed monthly performance analysis.
 
 ### Features
 
-- Total Number of Patients
-- Average Waiting Time
+- Total Patients
+- Average Wait Time
 - Patient Satisfaction Score
 - Number of Patients Referred
 - Admission Status
-- Patient Seen Within 30 Minutes
+- Patients Seen Within 30 Minutes
 - Age Group Distribution
-- Gender Distribution
-- Department Referrals
+- Gender Analysis
 - Race Distribution
-- Patient Visits by Day and Hour
+- Department Referrals
+- Day & Hour Heatmap
+
+### Dashboard Preview
+
+<img src="Monthly View.png" width="1000">
 
 ---
 
-## 2️⃣ Consolidated View
+## 📈 2. Consolidated View
 
-Provides overall hospital performance for the selected period.
+Provides overall hospital performance across the selected date range.
 
 ### Features
 
-- Overall Patient Count
-- Average Waiting Time
-- Satisfaction Score
-- Referral Analysis
-- Admission Summary
-- Patient Demographics
-- Department Referral Analysis
+- Overall KPIs
+- Patient Trends
+- Department Referrals
+- Admission Analysis
 - Race Distribution
+- Gender Distribution
+- Age Group Analysis
 - Peak Day & Hour Analysis
+
+### Dashboard Preview
+
+<img src="Consolidated View.png" width="1000">
 
 ---
 
-## 3️⃣ Patient Detail
+## 👨‍⚕️ 3. Patient Detail
 
-Provides detailed patient-level information.
+Provides patient-level detailed information.
 
 ### Includes
 
@@ -80,129 +88,102 @@ Provides detailed patient-level information.
 - Department Referral
 - Admission Status
 
+### Dashboard Preview
+
+<img src="Patient Detail.png" width="1000">
+
 ---
 
-## 4️⃣ Key Takeaways
+## 📋 4. Key Takeaways
 
-Summarizes important business insights such as:
+Summarizes important insights and business findings.
 
-- Patient volume trends
-- Waiting time analysis
-- Satisfaction analysis
-- Admission patterns
-- Referral trends
-- Demographic insights
-- Peak operational hours
-- Overall recommendations
+### Includes
+
+- Descriptive Analysis
+- Waiting Time Analysis
+- Admission Pattern
+- Peak Hours
+- Referral Analysis
+- Demographic Analysis
+- Business Recommendations
+
+### Dashboard Preview
+
+<img src="Key Takeaways.png" width="1000">
 
 ---
 
 # 📈 Key Performance Indicators (KPIs)
 
-- 👨‍⚕️ Total Patients
-- ⏳ Average Wait Time
-- ⭐ Patient Satisfaction Score
-- 🏥 Number of Patients Referred
-- ✅ Admission Rate
-- ❌ Non-Admission Rate
-- 📅 Patients Seen Within 30 Minutes
+| KPI | Description |
+|------|-------------|
+| 👥 Total Patients | Total number of ER patients |
+| ⏱ Average Wait Time | Average patient waiting time |
+| ⭐ Satisfaction Score | Average patient satisfaction |
+| 🏥 Patients Referred | Number of referrals |
+| ✅ Admission Rate | Percentage admitted |
+| ❌ Non Admission Rate | Percentage discharged |
+| 📅 Seen Within 30 Minutes | Performance against target |
 
 ---
 
 # 📂 Dataset Information
 
-The dataset contains emergency room patient records including:
+The dataset contains Emergency Room patient records including:
 
 - Patient ID
 - Admission Date
+- Patient Age
 - Gender
-- Age
 - Race
 - Waiting Time
 - Referral Department
 - Admission Status
-- Satisfaction Score
+- Patient Satisfaction Score
 
 ---
 
-# 🛠 Tools & Technologies Used
+# 🛠 Tools & Technologies
 
 - Microsoft Power BI
 - Power Query
 - DAX (Data Analysis Expressions)
 - Microsoft Excel
+- Data Modeling
+- Data Visualization
 
 ---
 
-# 📷 Dashboard Preview
+# 📊 Dashboard Highlights
 
-## Monthly View
+✔ Interactive Slicers
 
-![Monthly View](Dashboard%20Screenshots/Monthly%20View.png)
+✔ Dynamic KPIs
 
----
+✔ Drill-down Analysis
 
-## Consolidated View
+✔ Heatmap Visualization
 
-![Consolidated View](Dashboard%20Screenshots/Consolidated%20View.png)
+✔ Demographic Analysis
 
----
+✔ Department Referral Analysis
 
-## Patient Detail
+✔ Monthly Performance Tracking
 
-![Patient Detail](Dashboard%20Screenshots/Patient%20Detail.png)
-
----
-
-## Key Takeaways
-
-![Key Takeaways](Dashboard%20Screenshots/Key%20Takeaways.png)
+✔ Patient-Level Reporting
 
 ---
 
-# 📌 Key Insights
+# 💼 Business Insights
 
-### Patient Flow
-
-- More than **9,000+ patients** were analyzed.
-- Patient volume remained consistent throughout the reporting period.
-
-### Waiting Time
-
-- Average waiting time is approximately **35 minutes**.
-- Indicates opportunities for improving patient flow.
-
-### Admission Analysis
-
-- Nearly half of the patients were admitted.
-- Remaining patients were treated and discharged.
-
-### Department Referrals
-
-Most referrals were made to:
-
-- General Practice
-- Orthopedics
-- Cardiology
-- Physiotherapy
-
-### Demographic Analysis
-
-The dashboard analyzes patients based on:
-
-- Age Group
-- Gender
-- Race
-
-### Peak Hours
-
-Identifies:
-
-- Busiest Days
-- Busiest Hours
-- Highest Patient Load
-
-These insights help hospitals optimize staffing and resource allocation.
+- Monitor Emergency Room performance in real time.
+- Analyze patient waiting times.
+- Identify busiest hours and weekdays.
+- Optimize hospital staffing.
+- Improve patient satisfaction.
+- Understand demographic trends.
+- Support strategic healthcare decisions.
 
 ---
 
@@ -212,29 +193,26 @@ These insights help hospitals optimize staffing and resource allocation.
 Hospital-Emergency-Room-Dashboard
 │
 ├── Hospital Dashboard.pbix
-├── Hospital_Dataset.xlsx
+├── Hospital_Dataset.csv
+├── Monthly View.png
+├── Consolidated View.png
+├── Patient Detail.png
+├── Key Takeaways.png
 ├── README.md
-│
-├── Dashboard Screenshots
-│   ├── Monthly View.png
-│   ├── Consolidated View.png
-│   ├── Patient Detail.png
-│   └── Key Takeaways.png
-│
-└── LICENSE 
+└── LICENSE
 ```
 
 ---
 
 # 🚀 How to Use
 
-1. Clone this repository
+1. Clone the repository
 
-```
-git clone https://github.com/yourusername/Hospital-Emergency-Room-Dashboard.git
+```bash
+git clone https://github.com/Vivekrastogi69/Hospital-Emergency-Room-Dashboard.git
 ```
 
-2. Open the `.pbix` file in **Microsoft Power BI Desktop**.
+2. Open **Hospital Dashboard.pbix** in Microsoft Power BI Desktop.
 
 3. Refresh the dataset if required.
 
@@ -242,44 +220,41 @@ git clone https://github.com/yourusername/Hospital-Emergency-Room-Dashboard.git
 
 ---
 
-# 💡 Business Benefits
-
-This dashboard helps hospital management to:
-
-- Improve patient experience
-- Reduce waiting time
-- Optimize staffing
-- Monitor emergency room performance
-- Analyze patient demographics
-- Support data-driven decision making
-
----
-
-# 📚 Skills Demonstrated
+# 🎯 Skills Demonstrated
 
 - Data Cleaning
+- Data Transformation
 - Data Modeling
-- Power Query
 - DAX
-- Data Visualization
+- Power Query
 - Dashboard Design
 - Business Intelligence
+- Data Visualization
 - Healthcare Analytics
 
 ---
 
-# 👨‍💻 Author
+# 📧 Contact
 
-**Vivek Rastogi**
+## Vivek Rastogi
 
-**B.Tech (CSE - Data Science)**
+📧 Email  
+**rastogivivek067@gmail.com**
 
-📧 Email: rastogivivek067@gmail.com
+💼 LinkedIn  
+**https://www.linkedin.com/in/vivek-rastogi-78401430b/**
 
-🔗 LinkedIn: https://www.linkedin.com/in/vivek-rastogi-78401430b/
-
-💻 GitHub: https://github.com/yourusername
+🐙 GitHub  
+**https://github.com/Vivekrastogi69**
 
 ---
 
-# ⭐ If you found this project useful, don't forget to Star this repository!
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates further development.
+
+---
+
+## Thank You ❤️
