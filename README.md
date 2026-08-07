@@ -245,7 +245,7 @@ git clone https://github.com/Vivekrastogi69/Hospital-Emergency-Room-Dashboard.gi
 **https://www.linkedin.com/in/vivek-rastogi-78401430b/**
 
 🐙 GitHub  
-**https://github.com/Vivekrastogi69**
+**https://github.com/vivekrastogi-ai**
 
 ---
 
